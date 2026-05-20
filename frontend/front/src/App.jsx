@@ -31,8 +31,8 @@ import AdminLocations from "./pages/AdminDashboard/AdminLocations";
 import UpdateStatus from "./pages/AdminDashboard/UpdateStatus";
 
 /* OFFICER */
-import OfficerLogin from "./pages/officer/OfficerLogin";
-import OfficerDashboard from "./pages/officer/OfficerDashboard";
+// import OfficerLogin from "./pages/officer/OfficerLogin";
+// import OfficerDashboard from "./pages/officer/OfficerDashboard";
 
 /* ================= PROTECTED ROUTES ================= */
 
@@ -148,7 +148,7 @@ export default function App() {
       <Route path="/admin/login" element={<AdminLogin />} />
       <Route path="/admin/register" element={<AdminRegister />} />
 
-      <Route path="/officer/login" element={<OfficerLogin />} />
+      {/* <Route path="/officer/login" element={<OfficerLogin />} /> */}
 
       {/* ================= USER ================= */}
       <Route
@@ -184,7 +184,7 @@ export default function App() {
       </Route>
 
       {/* ================= OFFICER ================= */}
-      <Route path="/officer/login" element={<OfficerLogin />} />
+      {/* <Route path="/officer/login" element={<OfficerLogin />} /> */}
 
       <Route
         path="/officer/dashboard"
