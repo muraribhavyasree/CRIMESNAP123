@@ -186,14 +186,14 @@ export default function App() {
       {/* ================= OFFICER ================= */}
       {/* <Route path="/officer/login" element={<OfficerLogin />} /> */}
 
-      <Route
+ {/*     <Route
         path="/officer/dashboard"
         element={
           <RequireOfficer>
             <OfficerDashboard />
           </RequireOfficer>
         }
-      />
+      /> */}
 
       {/* ================= FALLBACK ================= */}
       <Route path="*" element={<Navigate to="/" replace />} />
